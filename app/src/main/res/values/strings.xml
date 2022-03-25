@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieAndTVShow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_show">TV Show</string>
+    <string name="movies">Movies</string>
+    <string name="tooltip_example_title">Sword Art Online Alternative: Gun Gale Online</string>
+    <string name="tooltip_example_year">2018</string>
+    <string name="poster_thumbnail">Poster Thumbnail</string>
+    <string name="tooltip_example_director_or_ongoing">COMPLETED SERIES</string>
+    <string name="tooltip_example_season">2 Seasons / 13 Episodes</string>
+    <string name="tooltip_example_episode">13 Episodes</string>
+    <string name="tooltip_example_description">A shy university student in Tokyo, Karen Kohiruimaki stands in stark contrast to her in-game avatar—in fact, she happens to stand above everyone else too, much to her dismay. Towering above all the people around her, Karen\'s insecurities over her height reach the point where she turns to the virtual world for an escape. Starting game after game in hopes of manifesting as a cute, short character, she finally obtains her ideal self in the world of Gun Gale Online. Overjoyed by her new persona, she pours her time into the game as LLENN, garnering her reputation as the legendary player killer. However, when one of LLENN\'s targets gets the best of her, she ends up meeting Pitohui, a skilled yet eccentric woman. Pitohui insists that LLENN participates in Squad Jam, a battle royale. Thrust into the heated competition, LLENN must fight with all her wit and will if she hopes to shoot her way to the top.</string>
+    <string name="not_found">Rajang can\'t find anything here, so now Rajang dance for a bit</string>
+    <string name="not_found_header">Uh Oh</string>
+    <string name="ongoing_text">ONGOING</string>
+    <string name="season_completed_text">SEASON COMPLETED</string>
+    <string name="starred_shows">Starred Shows</string>
+    <string name="starred_movies">Starred Movies</string>
+    <string name="star">Star</string>
+</resources>

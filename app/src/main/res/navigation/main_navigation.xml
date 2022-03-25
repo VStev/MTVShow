@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_tv">
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="com.submission.movieandtvshow.ui.fragments.MoviesFragment"
+        android:label="Movies"
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/action_moviesFragment_to_showDetailsActivity"
+            app:destination="@id/nav_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="com.submission.movieandtvshow.ui.fragments.TVShowFragment"
+        android:label="TV Shows"
+        tools:layout="@layout/fragment_t_v_show" >
+        <action
+            android:id="@+id/action_TVShowFragment_to_showDetailsActivity"
+            app:destination="@id/nav_details" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_details"
+        android:name="com.submission.movieandtvshow.ui.activities.ShowDetailsActivity"
+        android:label="activity_show_details"
+        tools:layout="@layout/activity_show_details" />
+    <fragment
+        android:id="@+id/nav_star_movie"
+        android:name="com.submission.movieandtvshow.ui.fragments.StarredMovieFragment"
+        android:label="Starred Movie"
+        tools:layout="@layout/fragment_starred_movie" >
+        <action
+            android:id="@+id/action_starredMovieFragment_to_nav_details"
+            app:destination="@id/nav_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_star_show"
+        android:name="com.submission.movieandtvshow.ui.fragments.StarredShowFragment"
+        android:label="Starred Show"
+        tools:layout="@layout/fragment_starred_show" >
+        <action
+            android:id="@+id/action_starredShowFragment_to_nav_details"
+            app:destination="@id/nav_details" />
+    </fragment>
+</navigation>

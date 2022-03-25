@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tv"
+        android:title="@string/tv_show"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_tv_24"
+        />
+
+    <item
+        android:id="@+id/nav_movie"
+        android:title="@string/movies"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        />
+
+    <item
+        android:id="@+id/nav_star_show"
+        android:title="@string/starred_shows"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_starred_show"
+        />
+
+    <item
+        android:id="@+id/nav_star_movie"
+        android:title="@string/starred_movies"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_play_24"
+        />
+
+</menu>
